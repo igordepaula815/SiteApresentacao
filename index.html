@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- puxa o estilo do css -->
+  <link rel="stylesheet" href="estilo.css">   
+</head>
+<body>
+  <!--banner  -->
+<div class="index">
+    <section class="banner">
+      <h1>Portfólio pessoal web </h1>
+      <p>Igor Silva</p>
+      
+    </section>
+<!--  menu -->
+    <section class="produtos">
+   
+      <ul>
+        <li><a href="indexSobremin.html">Sobre min</a> </li>
+        <li><a href="indexFormacao.html">Formação</a></li>
+        <li><a href="indexPortfolio.html">Portifólio</a></li>
+        <li><a href="indexContato.html">Contato</a></li>
+        
+      </ul>
+    </section>
+
+    
+    <!-- mensagem -->
+
+    <section class="contato">
+      <h2>Mande uma mensagem</h2>
+      <p>Preencha o formulário abaixo</p>
+      <a href="#formulario" id="linkFaleConosco"></a>
+      <form id="formulario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <form id="formulario" class="contato-form">
+  </form>
+</section>
+  </div>
+
+ <script>
+    document.getElementById('linkFaleConosco').addEventListener('click', function(event) {
+      event.preventDefault(); // Impede o comportamento padrão do link
+
+      document.getElementById('formulario').style.display = 'block';
+    });
+    
+  </script>
+</body>
+</html>

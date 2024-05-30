@@ -1,0 +1,31 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remover margens padrão */
+    padding: 20px; /* Adicionar espaçamento interno */
+    background-color: #ffffff; /* Cor de fundo clara */
+  }
+  
+  #section {
+    background-color: #ffffff;
+  }
+  
+ 
+  /* Título principal */
+  h1 {
+    text-align: center; /* Centralizar o título */
+    color: #333; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    background-color: #f0f0f0;
+    
+  }
+  
+ /* Rodapé */
+  footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+    color: #666; 
+  }
+  

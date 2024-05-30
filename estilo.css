@@ -1,0 +1,166 @@
+
+
+/* Produtos em Coluna */
+.produtos {
+    display: flex;
+    flex-wrap: wrap; /* Quebra de linha automática */
+    justify-content: center; /* Alinhamento horizontal no centro */
+    margin: 0 -20px; /* Remove margem entre a seção e os produtos */
+    background-color: #f5f5f5;
+  }
+  
+  .produtos li {
+    flex-basis: calc(50% - 40px); /* Largura base dos produtos */
+    margin: 20px; /* Espaçamento entre os produtos */
+    padding: 20px; /* Espaçamento interno dos produtos */
+    background-color: #f5f5f5; /* Cor de fundo dos produtos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    border-radius: 5px; /* Cantos arredondados dos produtos */
+    text-align: center; /* Alinhamento central do texto dentro dos produtos */
+  }
+  
+  /* Estilo para cada item da lista de produtos */
+  .produtos li a {
+    display: block; /* Exibe o conteúdo como bloco */
+    text-decoration: none; /* Remove a decoração padrão dos links */
+    color: #333; /* Cor do texto dos links */
+  }
+  
+  .produtos li img {
+    width: 100%; /* Largura total da imagem */
+    height: auto; /* Altura automática da imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+    background-color: #f5f5f5;
+  }
+  
+  .produtos li h2 {
+    font-size: 20px; /* Tamanho do título do produto */
+    margin-bottom: 10px; /* Espaçamento abaixo do título do produto */
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilos para o banner */
+  .banner {
+    background-color: #444;
+    padding: 30px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento central do texto */
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    border-radius: 50px;
+  }
+  
+  .banner h1 {
+    background-color: #f5f5f5;
+    color: hsl(35, 94%, 49%);
+    font-family: 'Merriweather', serif;
+  
+    font-size: 36px; /* Tamanho maior para o título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    border-radius: 50px;
+  }
+  
+  .banner p {
+    background-color: #f5f5f5;
+    color: hsl(0, 2%, 8%);
+    font-size: 12px; /* Tamanho menor para o parágrafo */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    
+    font-family: 'Merriweather', serif;
+  
+    font-size: 20px; /* Ajuste o tamanho do texto */
+    line-height: 1.5; /* Ajuste o espaçamento entre as linhas de texto */
+    border-radius: 50px;
+  }
+    
+    
+  
+  
+  
+  
+  body {
+    background-color: #f5f5f5;
+    background-size: cover; /* Define o tamanho da imagem */
+    background-position: center; /* Define a posição da imagem */
+    font-family: "Roboto", sans-serif;
+  }
+  .contato {
+    background-color: #444; /* Cor de fundo da seção "Contato" */
+    padding: 40px;
+    text-align: center;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 40px; /* Espaço abaixo da seção */
+    
+  }
+  
+  .contato h2 {
+    color: #FF9900;
+    font-family: "Comic Sans MS", cursive;
+  
+    font-size: 30 px;
+    margin-bottom: 10px;
+   
+  }
+  
+  .contato p {     /*  preencha */
+    color: hsl(0, 40%, 98%);
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Open Sans", Poppins;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .contato a {    /*entre em contato */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  #formulario {
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #F0F0F0; /* Light gray background */
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    
+    
+  }
+  
+  /* Form elements (adjust as needed) */
+  #formulario input,
+  #formulario textarea {
+    width: 100%;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    
+    
+  }
+  
+  #formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #formulario button { /* Submit button */
+    background-color: #FF9900; /* Same color as "Entre em Contato" button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
+  
+  

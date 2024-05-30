@@ -1,0 +1,49 @@
+header {
+    background-color: #f0f0f0; /* Cor de fundo do header */
+    padding: 20px; /* Espaçamento interno do header */
+    text-align: center; /* Alinhamento central do conteúdo */
+  }
+  
+  header h1 {
+    color: #333; /* Cor do título */
+    font-size: 28px; /* Tamanho da fonte do título */
+    font-family: Arial, sans-serif; /* Tipo de letra do título */
+  }
+  
+  header p {
+    color: #666; /* Cor dos parágrafos */
+    font-size: 16px; /* Tamanho da fonte dos parágrafos */
+    line-height: 1.5; /* Espaçamento entre linhas dos parágrafos */
+  }
+
+  #formacao-academica {
+    background-color: #f9f9f9; /* Cor de fundo da seção */
+    padding: 40px; /* Espaçamento interno da seção */
+    text-align: center; /* Alinhamento central do conteúdo */
+  }
+  
+  #formacao-academica h2 {
+    color: #333; /* Cor do título "Sobre Mim" */
+    font-size: 28px; /* Tamanho da fonte do título */
+    font-family: Arial, sans-serif; /* Tipo de letra do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+  }
+  
+  #formacao-academica p {
+    color: #666; /* Cor dos parágrafos */
+    font-size: 16px; /* Tamanho da fonte dos parágrafos */
+    line-height: 1.6; /* Espaçamento entre linhas dos parágrafos */
+  }
+
+  /* style.css */
+footer {
+    background-color: #f0f0f0; /* Cor cinza do cabeçalho */
+    padding: 20px;
+    text-align: center;
+    color: #666; /* Cor de texto mais clara */
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

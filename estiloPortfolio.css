@@ -1,0 +1,43 @@
+/* Estilos da seção "Projetos" */
+#projetos {
+    background-color: #fff; /* Cor de fundo da seção */
+  }
+  
+  #projetos h2 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #projetos h4 {
+    background-color: #fff; /* Cor de fundo igual aos h2 */
+    
+    text-align: left;
+    font-weight: bold; /* Negrito */
+  }
+  
+  #projetos p { /* Selecionando parágrafos */
+    margin-top: 10px; /* Margem superior para parágrafos */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    font-weight: normal; /* Texto normal */
+  }
+
+  #projetos h5 {
+    background-color: #fff; /* Cor de fundo igual aos h2 */
+    
+    text-align: left;
+    font-weight: bold; /* Negrito */
+    font-size: 16px;
+
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #f0f0f0; /* Cor cinza do cabeçalho */
+    padding: 20px;
+    text-align: center;
+    color: #666; /* Cor de texto mais clara */
+    font-size: 14px;
+  }
+  
+  
